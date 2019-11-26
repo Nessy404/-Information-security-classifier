@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Сервис проверки теста на определение класса в области информационной безопасности</title>
+</head>
+<body>
+    <h1>Классификатор</h1>
+	<h3>Определение класса текста</h3>
+	<form method="POST">
+		{% csrf_token %}
+		<div>
+			<label>Введите текст для проверки:</label>
+		</div>
+		<div>
+			<textarea type="text" name="text" style="height: 600px; width: 400px;" placeholder="Введите текст для проверки"></textarea>
+		</div>
+		<div>
+			<input type="submit" value="Определить класс" style="height: 30px; width: 400px;">
+		</div>
+	</form>
+</body>
+</html>
