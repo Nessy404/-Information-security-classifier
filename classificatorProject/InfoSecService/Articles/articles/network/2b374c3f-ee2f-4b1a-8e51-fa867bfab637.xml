@@ -1,0 +1,13 @@
+<doc>
+  <source auto="true" type="str" verify="true"><![CDATA[https://habr.com/ru/company/tssolution/blog/444100/]]></source>
+  <category auto="true" type="str" verify="true"><![CDATA[Информационная безопасность]]></category>
+  <author auto="true" type="str" verify="true"><![CDATA[cooper051]]></author>
+  <title auto="true" type="str" verify="true"><![CDATA[1. Check Point Getting Started R80.20. Введение]]></title>
+  <keywords auto="true" type="list" verify="true">
+    <item type="str"><![CDATA[Блог компании TS Solution]]></item>
+    <item type="str"><![CDATA[Информационная безопасность]]></item>
+    <item type="str"><![CDATA[Системное администрирование]]></item>
+    <item type="str"><![CDATA[Сетевые технологии]]></item>
+  </keywords>
+  <text auto="true" type="str" verify="true"><![CDATA[ Добро пожаловать на первый урок! И начнем мы c Введения. Прежде чем начать разговор о Check Point мне хотелось бы сначала настроиться с вами «на одну волну». Для этого я постараюсь объяснить несколько концептуальных вещей: Что такое UTM решения и почему они появились? Что такое Next Generation Firewall или Enterprise Firewall, чем они отличаются от UTM? Лидеры этого рынка. В чем преимущество UTM/NGFW перед классическими средствами защиты? Если эта тема вам неинтересна, то можете смело пропускать этот урок. Это никак не скажется на вашем понимании следующих уроков, которые будут посвящены исключительно решениям Check Point. Если же эта тема вас заинтересовала, то, как обычно, под катом вы найдете видео урок! Видео урок №1 Надеюсь данный урок был полезен! Следующий выйдет уже в среду на нашем Youtube канале .]]></text>
+</doc>

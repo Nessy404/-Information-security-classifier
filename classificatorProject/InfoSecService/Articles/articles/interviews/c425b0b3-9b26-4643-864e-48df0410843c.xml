@@ -1,0 +1,12 @@
+<doc>
+  <source auto="true" type="str" verify="true"><![CDATA[https://habr.com/ru/company/jetinfosystems/blog/447076/]]></source>
+  <category auto="true" type="str" verify="true"><![CDATA[Информационная безопасность]]></category>
+  <author auto="true" type="str" verify="true"><![CDATA[LukaSafonov]]></author>
+  <title auto="true" type="str" verify="true"><![CDATA[OWASP Russia Meetup — запись выступлений]]></title>
+  <keywords auto="true" type="list" verify="true">
+    <item type="str"><![CDATA[Блог компании Инфосистемы Джет]]></item>
+    <item type="str"><![CDATA[Информационная безопасность]]></item>
+    <item type="str"><![CDATA[Тестирование веб-сервисов]]></item>
+  </keywords>
+  <text auto="true" type="str" verify="true"><![CDATA[ 3 апреля при поддержке компании «Инфосистемы Джет» состоялась очередная встреча российского отделения сообщества OWASP, на которой собрались специалисты по информационной безопасности. Запись выступлений спикеров можно посмотреть в представленном ниже видеоролике. Программа выступлений: Безопасность в Облаке , Евгений Сидоров, Яндекс Продвинутые методы эксплуатации XXE , Иван Булавин и Алексей Хайдин, Информзащита Advanced Web Fuzzing with BurpSuite: How to not miss your best vulnerability , Аркадий Литвиненко, BI.ZONE Сообщество OWASP активно развивается и расширяет свои ряды. Если вы хотите выступить на ближайшем митапе и поделиться интересным докладом — заполняйте CFP . OWASP Russia chapter: OWASP Russia OWASP Russia chat: https://t.me/OWASP_Russia OWASP Russia channel: https://t.me/OWASP_RU]]></text>
+</doc>

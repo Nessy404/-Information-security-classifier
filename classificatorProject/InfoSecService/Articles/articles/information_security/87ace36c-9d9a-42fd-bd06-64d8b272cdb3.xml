@@ -1,0 +1,11 @@
+<doc>
+  <source auto="true" type="str" verify="true"><![CDATA[https://habr.com/ru/company/devicelockdlp/blog/437946/]]></source>
+  <category auto="true" type="str" verify="true"><![CDATA[Информационная безопасность]]></category>
+  <author auto="true" type="str" verify="true"><![CDATA[ashotog]]></author>
+  <title auto="true" type="str" verify="true"><![CDATA[Аккаунт Admin@kremlin.ru обнаружен в тысячах баз данных MongoDB]]></title>
+  <keywords auto="true" type="list" verify="true">
+    <item type="str"><![CDATA[Блог компании DeviceLock DLP]]></item>
+    <item type="str"><![CDATA[Информационная безопасность]]></item>
+  </keywords>
+  <text auto="true" type="str" verify="true"><![CDATA[Голландский исследователь безопасности Victor Gevers заявил, что он обнаружил руку Кремля административную учетную запись Admin@kremlin.ru в более чем 2000 открытых базах данных MongoDB, принадлежащих российским и даже украинским организациям. Среди обнаруженных открытых баз MongoDB были базы Walt Disney Russia, Столото, ТТК-Северо-Запад и даже МВД Украины. Исследователь немедленно сделал единственно возможный вывод [sarcasm] – Кремль, через этот аккаунт, контролирует финансы российского бизнеса. Правда, все эти обнаруженные базы данных MongoDB были установлены с настройками по умолчанию, и кто угодно имел права доступа на чтение и изменение (Create, Read, Update и Delete). Регулярные новости про отдельные случаи утечек данных, оперативно публикуются на канале утечки информации .]]></text>
+</doc>

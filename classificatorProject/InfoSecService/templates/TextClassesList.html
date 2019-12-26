@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Сервис проверки теста на определение класса в области информационной безопасности</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="/">Главная</a> | <a href="/classifier">Классификатор</a> | <a href="/classes">Библиотека статей</a>
+		</nav>
+	</header>
+	<h1>Библиотека статей</h1>
+	<h3>Классы текстов:</h3>
+	<div>
+		{% for text_class in text_classes %}
+			<li><a href="/class/{{ text_class.eng }}/articles">{{ text_class.rus }}</a></li>
+		{% endfor %}
+	</div>
+	<p>Колличество статей в библиотеке: {{ article_amount }}</p>
+</body>
+</html>

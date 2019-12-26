@@ -17,8 +17,12 @@ from django.urls import path
 from django.urls import path, re_path
 from django.views.generic import TemplateView
 from Classifier import views as classifierViews
+from Articles import views as articlesViews
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name="index.html")),
     path('classifier/', classifierViews.classify),
+    path('classes/', articlesViews.classes),
+    re_path(r'^class/(?P<class_name>\w+)/articles', articlesViews.articles),
+    re_path(r'^article/(?P<class_name>\w+)/(?P<article_name>[-\w.]+)', articlesViews.article),
 ]

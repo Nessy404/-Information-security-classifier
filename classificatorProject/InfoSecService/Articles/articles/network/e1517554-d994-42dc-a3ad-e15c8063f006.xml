@@ -1,0 +1,13 @@
+<doc>
+  <source auto="true" type="str" verify="true"><![CDATA[https://habr.com/ru/company/tssolution/blog/444520/]]></source>
+  <category auto="true" type="str" verify="true"><![CDATA[Информационная безопасность]]></category>
+  <author auto="true" type="str" verify="true"><![CDATA[cooper051]]></author>
+  <title auto="true" type="str" verify="true"><![CDATA[2. Check Point Getting Started R80.20. Архитектура решения]]></title>
+  <keywords auto="true" type="list" verify="true">
+    <item type="str"><![CDATA[Блог компании TS Solution]]></item>
+    <item type="str"><![CDATA[Информационная безопасность]]></item>
+    <item type="str"><![CDATA[Системное администрирование]]></item>
+    <item type="str"><![CDATA[Сетевые технологии]]></item>
+  </keywords>
+  <text auto="true" type="str" verify="true"><![CDATA[ Добро пожаловать на второй урок! На этот раз мы поговорим об архитектурных особенностях решений Check Point. Это очень важный урок, особенно для тех, кто впервые знакомится с «чекпоинтом». В целом, данный урок будет очень похож на одну из наших предыдущих статей " Check Point. Что это, с чем его едят или коротко о главном ". Однако, контент был немного переработан и актуализирован. В конце статьи вы найдете видео урок. Посмотрев его вы узнаете ответы на следующие вопросы: Какие сегменты сети может защищать Check Point? Что такое Security Gateway, Security Management Server, Smart Console? Как выглядит процесс изменения настроек Check Point? Какие операционные системы Check Point существуют? Какая ОС имеет сертификат ФСТЭК? Варианты исполнения шлюзов и сервера управления. Варианты установки (Standalone, Distributed). Режимы работы. Отказоустойчивость. Что такое программные блейды (software blades)? Видео урок Надеюсь урок был полезен! Дополнительную информацию об устройствах Check Point (модели, даташиты, производительность, цена) вы можете найти здесь .]]></text>
+</doc>

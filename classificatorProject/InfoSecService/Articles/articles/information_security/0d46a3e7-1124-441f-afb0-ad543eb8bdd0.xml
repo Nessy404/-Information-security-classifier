@@ -1,0 +1,12 @@
+<doc>
+  <source auto="true" type="str" verify="true"><![CDATA[https://habr.com/ru/company/devicelockdlp/blog/432728/]]></source>
+  <category auto="true" type="str" verify="true"><![CDATA[Информационная безопасность]]></category>
+  <author auto="true" type="str" verify="true"><![CDATA[ashotog]]></author>
+  <title auto="true" type="str" verify="true"><![CDATA[Уязвимость в API Google+ раскрывала приватные данные 52,5 млн. пользователей]]></title>
+  <keywords auto="true" type="list" verify="true">
+    <item type="str"><![CDATA[Блог компании DeviceLock DLP]]></item>
+    <item type="str"><![CDATA[Информационная безопасность]]></item>
+    <item type="str"><![CDATA[Социальные сети и сообщества]]></item>
+  </keywords>
+  <text auto="true" type="str" verify="true"><![CDATA[В октябре, на канале Утечки информации , я писал про то, что Google обнаружили в своей социальной сети Google+ потенциальную утечку данных 500 тыс. пользователей. А сегодня Google заявили , что они обнаружили еще одну уязвимость в API Google+, которая могла привести к утечке данных 52,5 млн. пользователей. Уязвимость существовала 6 дней в ноябре 2018 года и позволяла приложениям получать из профилей пользователей информацию (имя, адрес электронной почты, пол, дату рождения, возраст и т.п.), даже если эти данные были приватными. Кроме того, через профиль одного пользователя можно было получать данные других пользователей. После этого инцидента Google решили ускорить процесс закрытия своей соцсети — вместо августа 2019 года, Google+ закроется в апреле 2019 года.]]></text>
+</doc>
