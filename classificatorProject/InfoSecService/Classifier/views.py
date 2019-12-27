@@ -21,7 +21,7 @@ textClasses = ['career',\
                'law',\
                'machine_learning',\
                'network',\
-               'various',]
+               'various', ]
 textClassesRus = ['Карьера',\
                   'Криптография',\
                   'Разработка',\
@@ -31,7 +31,12 @@ textClassesRus = ['Карьера',\
                   'Законодательство',\
                   'Машинное обучение',\
                   'Сетевые технологии',\
-                  'Разное',]
+                  'Разное', ]
+
+
+def is_not_blank(s):
+    return bool(s and s.strip())
+
 
 def makeVector(text):
     vector = [0] * len(classifierDictionary)
@@ -43,6 +48,7 @@ def makeVector(text):
                 vector[index] = vector[index] + 1
     return np.array([vector], int)
 
+
 def getTextClass(text):
     result = classifier.predict(makeVector(text))
     return textClassesRus[int(result[0]) - 1]
@@ -51,11 +57,11 @@ def getTextClass(text):
 def classify(request):
     if request.method == "POST":
         text = request.POST.get("text")
-
-        textClass = getTextClass(text)
-        
-        return render(request, "ClassifyResult.html",\
-                      context={"textClass": textClass})
+        if is_not_blank(text):
+            textClass = getTextClass(text)
+            return render(request, "ClassifyResult.html",\
+            context={"textClass": textClass})
+        else:
+            return render(request, "page404.html")
     else:
         return render(request, "ClassifyForm.html")
-

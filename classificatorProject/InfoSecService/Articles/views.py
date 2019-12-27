@@ -27,14 +27,15 @@ for index in range(len(textClasses)):
     textClassesList.append({"eng": textClasses[index],\
                             "rus": textClassesRus[index]})
 
+
 def classes(request):
     articleAmount = 0
     for textClass in textClasses:
         articlesFiles = os.listdir("Articles//articles//" + textClass + "//")
         articleAmount = articleAmount + len(articlesFiles)
-    
     return render(request, "TextClassesList.html",\
                   context={"text_classes": textClassesList, "article_amount": articleAmount})
+
 
 def articles(request, class_name):
     if class_name in textClasses:
@@ -56,6 +57,7 @@ def articles(request, class_name):
     return render(request, "ArticlesList.html",\
                   context={"text_class": textClass, "articles": articles})
 
+
 def article(request, class_name, article_name):
     print(class_name)
     print(article_name)
@@ -63,10 +65,7 @@ def article(request, class_name, article_name):
         tree = etree.parse("Articles//articles//" + class_name + "//" + article_name)
     except Exception:
         return render(request, "page404.html")
-    
     title = tree.xpath('//title')[0].text
     text = tree.xpath('//text')[0].text
-    
     return render(request, "Article.html",\
                   context={"title": title, "text": text})
-
